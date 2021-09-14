@@ -1,0 +1,121 @@
+/* Mobie  */
+
+@media (max-width: 740px) {
+
+    #header {
+        overflow: hidden;
+    }
+
+   #slider .text-content{
+       padding: 0;
+       display: contents;
+   }
+
+
+   #nav li a {
+       display: block;
+   }
+
+
+   #nav > li {
+       display: block;
+   }
+
+   #nav > li:first-child {
+       display: inline-block;
+   }
+
+   #nav > li:first-child >a:hover{
+    color:#fff;
+    background-color: #000;
+   }
+
+   #nav .subnav {
+       position: initial;
+       background-color: #333;
+   }
+
+   #nav .subnav a {
+       color: #fff;
+       padding: 0 40px;
+   }
+   
+   #header .search-btn{
+      display: none;
+   }
+
+   #header .search-add {
+       display: block;
+   }
+
+   #content .name-img{
+       max-width: 100%;
+       width: auto;
+   }
+
+   #content .img-hot {
+       width: auto;
+       height: auto;
+       max-width: 100%;
+       max-height: 100%;
+   }
+
+   #content .name-item{
+       margin-left: auto;
+   }
+
+   #content .place-body {
+        width: auto;
+        display: inline-block;
+   }
+
+   #content .place-introduce {
+       margin-right: 5px;
+       margin-bottom: 5px;
+   }
+
+    .content-ib {
+       margin-left: auto;
+       margin-right: auto;
+   }
+
+   .row {
+       margin-left: auto;
+       margin-right: auto;
+   }
+
+   .content-infor {
+       margin-left: 10px;
+   }
+
+   .col-half {
+       width: auto;
+       margin-top: 8px;
+   }
+
+   .col {
+       float: none;
+   }
+
+   .last-night {
+       width: 100%;
+       
+   }
+
+
+  
+}
+
+
+
+/* Tablet  */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* PC  */
+
+@media (min-width: 1024px) {
+    
+}
