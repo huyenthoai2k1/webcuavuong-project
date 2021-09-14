@@ -129,7 +129,7 @@ html{
     position: relative;
     margin-top: 40px;
     padding-top: 50%;
-    background: url(/assets/img/slider4.jpg) top center /cover no-repeat;
+    background: url(../img/slider4.jpg) top center /cover no-repeat;
 }
 
 
@@ -141,15 +141,19 @@ html{
     text-align: center;
     color:#fff;
     padding: 32px 16px;
+    text-shadow: 0 4px #000;
 }
+
 #slider .text-heading{
    font-weight: 600;
-   font-size: 25px;
+   font-size: 35px;
    margin: 15px;
 }
+
 #slider .text-last{
     font-size: 15px;
 }
+
 #header .search-add,
 #header .search-btn{
     float: right;

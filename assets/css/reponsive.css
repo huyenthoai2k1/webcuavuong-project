@@ -1,6 +1,6 @@
 /* Mobie  */
 
-@media (max-width: 740px) {
+@media (max-width: 739px) {
 
     #header {
         overflow: hidden;
@@ -8,9 +8,14 @@
 
    #slider .text-content{
        padding: 0;
-       display: contents;
+       bottom: 10px;
    }
 
+
+   #slider .text-heading{
+       margin: 9px;
+       font-size: 25px;
+   }
 
    #nav li a {
        display: block;
